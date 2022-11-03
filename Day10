@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+         String str="";
+                String str2="";
+                char ch;
+                Scanner sc = new Scanner(System.in);
+                str=sc.next();
+                for(int i=0;i<str.length();i++)
+                {
+                    ch = str.charAt(i);
+                    str2=ch+str2;
+                }
+                if(str.equals(str2)==true)
+                {
+                    System.out.println("Yes");
+                }
+                else
+                {
+                    System.out.println("No");
+                }
+    }
+}
