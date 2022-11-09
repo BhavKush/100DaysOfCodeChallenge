@@ -9,3 +9,26 @@ Explaination:-
 [a-zA-Z]{1}--> means any character(a-z) or(A-Z) can appear at first but only 1 time.
 
 [0-9_a-zA-Z]{7-29} means any character b/w (a-z) or (A-Z) or _ or (0-9) can appear atleast 7 times and atmost 29 times which result in total of (8-30) character in our string.
+Sample input :
+
+4
+
+Julia
+
+Samantha
+
+Samantha_21
+
+1Samantha
+
+
+
+Sample output :
+
+ Invalid
+
+Valid
+
+Valid
+
+Invalid
